@@ -16,4 +16,3 @@ sudo suricata -T -c /etc/suricata/suricata.yaml
 sudo tail -f /var/log/suricata/eve.json | jq 'select(.event_type=="alert")' 
 ```
 , где смотрим логи в реальном времени, фильтрует JSON из `eve.json`, оставляет только строки где `event_type` равен `alert`
-
