@@ -12,7 +12,7 @@ alert tcp any any -> $HOME_NET any (msg:"SYN_SCAN_DETECTED"; flags:S; detection_
 # Воспроизведение атаки
 Команда запуска сканирования с машины атакующего:
 ```bash
-sudo nmap -sS 192.168.10.10
+sudo nmap -sS 192.168.10.2
 ```
 # Результат детекта 
 После запуска Nmap в логах Suricata успешно фиксируется следующее событие:
