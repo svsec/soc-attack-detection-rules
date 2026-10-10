@@ -60,4 +60,5 @@ vlad@idssuricata:~$ grep -c '"signature_id":1000003' /var/log/suricata/eve.json
 5
 ```
 
-![[Pasted image 20261010174405.png]]
+![Результат FIN scan](screenshots/fin-scan-result.png)
+
