@@ -59,6 +59,6 @@ vlad@idssuricata:~$ grep -c '"signature_id":1000005' /var/log/suricata/eve.json
 21
 ```
 
-![Срабатывание правила NULL scan в Suricata](./screenshots/null-scan-alerts.png)![Срабатывание правила NULL scan в Suricata](./screenshots/null-scan-alerts.png)
+![Срабатывание правила NULL scan в Suricata](./screenshots/null-scan-alerts.png)
 
 ![NULL scan: повторная проба на порт 22 в tcpdump](./screenshots/null-scan-tcpdump.png)
